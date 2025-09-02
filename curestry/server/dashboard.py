@@ -39,7 +39,7 @@ def launch_dashboard(port=3005):
     """Launches the dashboard on a specified port."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(script_dir)
-    agentneo_dir = os.path.dirname(parent_dir)
+    curestry_dir = os.path.dirname(parent_dir)
 
     if not is_port_free(port):
         logging.info(f"Port {port} is busy. Finding an available port...")
@@ -51,13 +51,13 @@ def launch_dashboard(port=3005):
         logging.info(f"Using port {port}")
 
     # Set the environment variable with the port
-    os.environ["AGENTNEO_DASHBOARD_PORT"] = str(port)
+    os.environ["CURESTRY_DASHBOARD_PORT"] = str(port)
 
     # Start the dashboard server in a new detached subprocess
     command = [
         sys.executable,
         "-m",
-        "agentneo.server.dashboard_server",
+        "curestry.server.dashboard_server",
         "--port",
         str(port),
     ]
@@ -74,7 +74,7 @@ def launch_dashboard(port=3005):
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 stdin=subprocess.DEVNULL,
-                cwd=agentneo_dir,
+                cwd=curestry_dir,
             )
         else:
             # Unix/Linux/Mac
@@ -84,7 +84,7 @@ def launch_dashboard(port=3005):
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 stdin=subprocess.DEVNULL,
-                cwd=agentneo_dir,
+                cwd=curestry_dir,
             )
 
         try:

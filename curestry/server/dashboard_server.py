@@ -496,7 +496,7 @@ def clear_cache():
 
 @app.route("/api/port")
 def get_port():
-    return jsonify({"port": os.environ.get("AGENTNEO_DASHBOARD_PORT", "3000")})
+    return jsonify({"port": os.environ.get("CURESTRY_DASHBOARD_PORT", "3000")})
 
 
 @app.route("/", defaults={"path": ""})
@@ -530,7 +530,7 @@ def main():
     args = parser.parse_args()
 
     port = args.port
-    os.environ["AGENTNEO_DASHBOARD_PORT"] = str(port)
+    os.environ["CURESTRY_DASHBOARD_PORT"] = str(port)
 
     # Start the server
     logging.info(f"Starting dashboard server on port {port}")

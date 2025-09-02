@@ -58,10 +58,10 @@ def calculate_cost(
 
 def load_model_costs():
     try:
-        with open("agentneo/configs/model_costs.json", "r") as file:
+        with open("curestry/configs/model_costs.json", "r") as file:
             return json.load(file)
     except FileNotFoundError:
-        with resources.open_text("agentneo.configs", "model_costs.json") as file:
+        with resources.open_text("curestry.configs", "model_costs.json") as file:
             return json.load(file)
 
 

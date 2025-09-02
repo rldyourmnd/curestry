@@ -188,7 +188,7 @@ class ToolTracerMixin:
         except ImportError as exc:
             raise ImportError(
                 "LangChain is not installed. Please install it using: "
-                "pip install agentneo[langchain]"
+                "pip install curestry[langchain]"
             ) from exc
 
         # Check if tool_input is already an instance

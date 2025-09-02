@@ -1,6 +1,6 @@
 # Curestry
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/rldyourmnd/curestry) ![GitHub stars](https://img.shields.io/github/stars/rldyourmnd/curestry?style=social) ![Issues](https://img.shields.io/github/issues/rldyourmnd/curestry) ![GitHub license](https://img.shields.io/github/license/rldyourmnd/curestry) ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
+![Version](https://img.shields.io/badge/version-v1.2.2-blue) ![GitHub stars](https://img.shields.io/github/stars/rldyourmnd/curestry?style=social) ![Issues](https://img.shields.io/github/issues/rldyourmnd/curestry) ![GitHub license](https://img.shields.io/github/license/rldyourmnd/curestry) ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 
 **Advanced AI Application Observability, Monitoring, and Evaluation Framework**
 

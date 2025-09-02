@@ -21,13 +21,13 @@ python -m pytest tests/
 ### Code Quality
 ```bash
 # Format code
-black agentneo/ --line-length 88
+black curestry/ --line-length 88
 
 # Sort imports
-isort agentneo/ --profile black --line-length 88
+isort curestry/ --profile black --line-length 88
 
 # Run linting (if configured)
-ruff check agentneo/
+ruff check curestry/
 ```
 
 ### Running the Dashboard

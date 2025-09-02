@@ -18,7 +18,7 @@ def get_db_path():
         return f"sqlite:///{package_db_path}"
 
     # Then, try the local directory
-    local_db_path = os.path.join(os.getcwd(), "agentneo", "ui", "dist", db_filename)
+    local_db_path = os.path.join(os.getcwd(), "curestry", "ui", "dist", db_filename)
     if os.path.exists(os.path.dirname(local_db_path)):
         logging.debug(f"Using local database: {local_db_path}")
         return f"sqlite:///{local_db_path}"

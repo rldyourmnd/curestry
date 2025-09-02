@@ -1,4 +1,4 @@
-from agentneo.data import LLMCall
+from curestry.data import LLMCall
 from .trace_utils import (
     calculate_cost,
     convert_usage_to_dict,
@@ -10,13 +10,13 @@ import json
 
 # Load the Json configuration
 try:
-    with open("agentneo/configs/model_costs.json", "r") as file:
+    with open("curestry/configs/model_costs.json", "r") as file:
         config = json.load(file)
 except FileNotFoundError:
-    # with resources.open_text("agentneo", "configs/model_costs.json") as file:
+    # with resources.open_text("curestry", "configs/model_costs.json") as file:
     #     config = json.load(file)
     from importlib.resources import files
-    with (files("agentneo.configs") / "model_costs.json").open("r") as file:
+    with (files("curestry.configs") / "model_costs.json").open("r") as file:
         config = json.load(file)
 
 
