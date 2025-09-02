@@ -1,8 +1,10 @@
 # Curestry
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/rldyourmnd/curestry) ![GitHub stars](https://img.shields.io/github/stars/rldyourmnd/curestry?style=social) ![Issues](https://img.shields.io/github/issues/rldyourmnd/curestry) ![GitHub license](https://img.shields.io/github/license/rldyourmnd/curestry) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/curestry)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/rldyourmnd/curestry) ![GitHub stars](https://img.shields.io/github/stars/rldyourmnd/curestry?style=social) ![Issues](https://img.shields.io/github/issues/rldyourmnd/curestry) ![GitHub license](https://img.shields.io/github/license/rldyourmnd/curestry) ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 
 **Advanced AI Application Observability, Monitoring, and Evaluation Framework**
+
+> 🚧 **Early Release**: Curestry is in active development. Install from source for the latest features. PyPI package coming soon!
 
 Curestry is an open-source framework designed to provide deep insights into your AI agents, Large Language Model (LLM) calls, and tool interactions. Build more efficient, cost-effective, and high-quality AI-driven solutions with comprehensive monitoring and evaluation capabilities.
 
@@ -28,7 +30,15 @@ Whether you're a seasoned AI developer or just starting out, Curestry offers rob
 
 ## 📦 Installation
 
-Install Curestry effortlessly using pip:
+### From Source (Recommended)
+
+```bash
+git clone https://github.com/rldyourmnd/curestry.git
+cd curestry
+pip install -e .
+```
+
+### PyPI (Coming Soon)
 
 ```bash
 pip install curestry
