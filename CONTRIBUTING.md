@@ -1,92 +1,66 @@
 # Contributing to Curestry
 
-First off, thank you for considering contributing to Curestry! It's people like you that make Curestry such a great tool. We welcome contributions from everyone, regardless of their experience level.
+Thank you for considering contributing to Curestry! We welcome contributions from everyone.
 
-## Code of Conduct
+## How to Contribute
 
-By participating in this project, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md). Please read it before contributing.
+### Reporting Issues
 
-## How Can I Contribute?
+- Search existing issues before creating a new one
+- Provide a clear title and detailed description
+- Include steps to reproduce the issue
+- Add relevant code samples or screenshots
 
-### Reporting Bugs
+### Suggesting Features
 
-- Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/rldyourmnd/curestry/issues).
-- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/rldyourmnd/curestry/issues/new). Be sure to include a title and clear description, as much relevant information as possible, and a code sample or an executable test case demonstrating the expected behavior that is not occurring.
-
-### Suggesting Enhancements
-
-- Open a new issue with a clear title and detailed description of the suggested enhancement.
-- Explain why this enhancement would be useful to most Curestry users.
+- Open an issue with a clear title and detailed description
+- Explain why this feature would be useful for Curestry users
 
 ### Pull Requests
 
-1. Fork the repo and create your branch from `main`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+1. Fork the repository
+2. Create a feature branch from `main`
+3. Make your changes with clear commit messages
+4. Add tests for new functionality
+5. Ensure all tests pass
+6. Submit a pull request
 
-## Setting Up Your Development Environment
+## Development Setup
 
-1. Ensure you have Python 3.9 or higher installed.
-2. Install Node.js (version 14 or higher) and npm (version 6 or higher) or yarn (1.22+).
-3. Fork the Curestry repository on GitHub.
-4. Clone your fork locally:
+1. Ensure you have Python 3.9 or higher installed
+2. Fork the Curestry repository on GitHub
+3. Clone your fork locally:
+   ```bash
+   git clone https://github.com/yourusername/curestry.git
+   cd curestry
    ```
-   git clone https://github.com/your-username/agentneo.git
-   cd agentneo
-   ```
-5. Create a virtual environment and activate it:
-   ```
+4. Create a virtual environment:
+   ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-6. Install the development dependencies:
-   ```
+5. Install in development mode:
+   ```bash
    pip install -e ".[dev]"
    ```
 
-## Running Tests
+## Code Standards
 
-We use pytest for our Python test suite. To run the tests:
+- Follow Python PEP 8 style guidelines
+- Use meaningful variable and function names
+- Add docstrings for new functions and classes
+- Keep functions focused and small
+- Add type hints where appropriate
 
+## Testing
+
+Run the test suite before submitting changes:
+```bash
+python -m pytest tests/
 ```
-pytest
-```
-
-For JavaScript tests, we use Jest. To run the JavaScript tests:
-
-```
-npm test
-```
-
-## Coding Style
-
-### Python
-We follow PEP 8 for Python code. Please ensure your code adheres to this standard. You can use tools like `flake8` or `black` to help format your code.
-
-### JavaScript
-For JavaScript code, we follow the Airbnb JavaScript Style Guide. We use ESLint to enforce these standards. Make sure to run ESLint before submitting your PR:
-
-```
-npm run lint
-```
-
-## Documentation
-
-If you're adding a new feature, please update the documentation accordingly. This includes both in-code documentation (docstrings for Python, JSDoc for JavaScript) and any relevant updates to README.md or other documentation files.
-
-## Roadmap Contributions
-
-If you're working on a feature that's on our roadmap:
-
-1. Check the current status in the README.md file.
-2. If it's not already being worked on, feel free to take it on!
-3. Update the roadmap in your PR to reflect the new status of the feature.
 
 ## Questions?
 
-Don't hesitate to ask questions if something is unclear. You can open an issue for broader questions about the project.
+Feel free to open an issue for any questions about contributing.
 
-Thank you for your contribution to Curestry! 🚀
+Thank you for contributing to Curestry!

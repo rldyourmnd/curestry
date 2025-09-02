@@ -222,7 +222,7 @@ def evaluate_goal_fulfillment(
 
 
 # Example usage
-# json_path = "/Users/vijay/Desktop/AgentNeo_folder/AgentNeo/travel.json"
+# Example usage:
 # with open(json_path) as j:
 #     trace_json = json.load(j)
 

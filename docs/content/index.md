@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/rldyourmnd/curestry)](https://github.com/rldyourmnd/curestry/releases)
 [![GitHub license](https://img.shields.io/github/license/rldyourmnd/curestry)](https://github.com/rldyourmnd/curestry/blob/main/LICENSE)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/curestry)](https://pypi.org/project/curestry/)
+[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://python.org)
 
 Welcome to Curestry! This documentation will help you understand and utilize Curestry's powerful features for monitoring, evaluating, and optimizing your AI applications.
 
@@ -61,17 +61,10 @@ Welcome to Curestry! This documentation will help you understand and utilize Cur
   - Metadata Options
 
 ### Contributing
-- [Development Setup](contributing/setup.md)
-  - Environment Setup
-  - Development Tools
-- [Guidelines](contributing/guidelines.md)
-  - Coding Standards
-  - Documentation
-  - Testing
-- [Pull Requests](contributing/pull-requests.md)
-  - PR Process
-  - Code Review
-  - Merging
+- [Contributing Guide](../CONTRIBUTING.md)
+  - Development Setup
+  - Code Standards
+  - Pull Request Process
 
 ### Troubleshooting
 - [Common Issues](troubleshooting/common-issues.md)
@@ -103,8 +96,8 @@ Welcome to Curestry! This documentation will help you understand and utilize Cur
 
 - 📘 Check our [FAQ](troubleshooting/faq.md) for quick answers
 - 🐛 Report issues on [GitHub](https://github.com/rldyourmnd/curestry/issues)
-- 🤝 Read our [Contributing Guidelines](contributing/guidelines.md)
-- 📧 Contact support at <rldyourmnd@gmail.com>
+- 🤝 Read our [Contributing Guidelines](../CONTRIBUTING.md)
+- 📧 Contact: <rldyourmnd@gmail.com>
 
 ## Community
 
